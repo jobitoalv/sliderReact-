@@ -17,7 +17,7 @@ function App() {
         const{id, image, name, title, quote } = person;
 
         return <article key={id}>
-          <img src={image} alt={name} className={person}/>
+          <img src={image} alt={name} className='person-img'/>
         </article>
       })}
     </div>
